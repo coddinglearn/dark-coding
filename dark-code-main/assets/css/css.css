@@ -1,0 +1,532 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+    background: #171717;
+    font-family: Changa !important;
+}
+
+.bgimg-1 {
+    position: relative;
+    opacity: 0.86;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bgimg-1 {
+    background-image: url("../img/img_parallax.jpg");
+    min-height: 100%;
+    transition: .7s all ease-in-out;
+    opacity: 0;
+    clip-path: circle(180vh at 50% -80vh);
+    background-attachment: fixed;
+}
+
+.topna.mo {
+    display: none;
+}
+
+.fa.fa-bars {
+    float: left;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 6px;
+    line-height: 1.5;
+}
+
+.scc1 {
+    font-size: 29px;
+    text-align: center;
+    color: white;
+    text-decoration: navajowhite;
+    margin-right: 10px;
+    font-family: Fredoka One;
+}
+
+.notr {
+    display: none;
+}
+
+@media(max-width:952px) {
+    .topnav {
+        display: none;
+    }
+    .topna.mo {
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        background-color: #171717eb;
+        direction: rtl;
+        margin: 0;
+    }
+    .notr {
+        background-color: #171717;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        height: 290px;
+        overflow: scroll;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        color: #fff;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 250px;
+        height: auto;
+        z-index: 999999;
+        overflow: auto;
+        padding: 0;
+        margin: 0;
+        right: -350px;
+        transition: all 0.5s ease-in;
+        display: block;
+    }
+    .no {
+        right: 0;
+        transition: all 0.5s ease-in;
+    }
+    .mobile_menu_overlay {
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 100;
+        right: 0%;
+        height: 120vh;
+        opacity: 0;
+        visibility: hidden;
+        background-color: rgba(0, 0, 0, 0.9);
+        -webkit-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+    }
+    .op {
+        opacity: 1;
+        visibility: visible;
+    }
+    .hope {
+        background: #444343;
+        padding: 10px;
+        padding-top: 10px;
+        padding-top: 10px;
+        padding-top: 10px;
+        padding-top: 10px;
+        margin-left: px;
+        margin-top: 0;
+        padding-top: 15px;
+    }
+    .okd {
+        float: right;
+    }
+    .hope a {
+        width: 50px;
+        display: inline-block;
+        border: 0;
+        text-align: center;
+    }
+    .ma.drop-menu-st a {
+        color: #fff;
+        padding: 0;
+        display: block;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 5px 30px;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-bottom: 1px solid #ffffff1c
+    }
+    .ma.drop-menu-st {
+        width: 100%;
+        display: block;
+        transition: 0.3s all ease-in-out;
+        text-align: right;
+    }
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+}
+
+.caption span.border {
+    padding: 18px;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px #000000;
+    display: none;
+}
+
+#vidcontainer {
+    background-image: url('../img/headercontainer.jpg?x=2');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+
+.player6204 {
+    width: 100%;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.row {
+    color: #bdb1b1;
+    background: #171717;
+    ;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+    transition: 1s ease-in-out;
+    opacity: 0;
+}
+
+.active {
+    animation-name: animated_div;
+    animation-duration: 1s;
+    opacity: 1;
+}
+
+@keyframes animated_div {
+    0% {
+        transform: translate(-50px);
+        transition: 1s ease-in-out;
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0px);
+        transition: 1s ease-in-out;
+        opacity: 1;
+    }
+}
+
+.ah {
+    opacity: 0.86;
+}
+
+div#preload {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #171717;
+    z-index: 9999999;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    transition: 1s all ease-in-out;
+}
+
+.sk-cube-grid .sk-cube,
+.sk-chasing-dots .sk-child,
+.sk-spinner-pulse,
+.sk-three-bounce .sk-child,
+.sk-wandering-cubes .sk-cube,
+.sk-double-bounce .sk-child,
+.sk-rotating-plane,
+.sk-wave .sk-rect,
+.cssload-loader-style-2 .cssload-loader-inner,
+.sk-folding-cube .sk-cube::before {
+    background-color: #000;
+}
+
+.sk-cube-grid .sk-cube {
+    width: 33.33%;
+    height: 33.33%;
+    background-color: #fff;
+    float: left;
+    animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+    transition: .7s all ease-in-out;
+}
+
+.sk-cube-grid .sk-cube1 {
+    animation-delay: .2s;
+}
+
+.sk-cube-grid .sk-cube1 {
+    animation-delay: .2s;
+}
+
+.sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 40px auto;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+@keyframes rota {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    30% {
+        -webkit-transform: scale3d(1.25, .75, 1);
+        transform: scale3d(1.25, .75, 1);
+    }
+    40% {
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+        transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.15, .85, 1);
+        transform: scale3d(1.15, .85, 1);
+    }
+    65% {
+        -webkit-transform: scale3d(.95, 1.05, 1);
+        transform: scale3d(.95, 1.05, 1);
+    }
+    75% {
+        -webkit-transform: scale3d(1.05, .95, 1);
+        transform: scale3d(1.05, .95, 1);
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@keyframes sk-cubeGridScaleDelay {
+    0%,
+    100%,
+    70% {
+        transform: scale3D(1, 1, 1);
+    }
+    35% {
+        transform: scale3D(0, 0, 1);
+    }
+}
+
+
+/* Cards section */
+
+.cards__section {
+    column-gap: 1rem;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.section__title {
+    background-color: #171717eb;
+    font-size: 3.5rem;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.section__subtitle {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.body.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #171717;
+    background-image: url("../img/img_parallax3.jpg");
+    background-attachment: fixed;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.container .card {
+    position: relative;
+    width: 200px;
+    height: 320px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px soild rgba(255, 255, 255, 0.5);
+    border-left: 1px soild rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.ho5 {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: #e11414;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.48);
+    margin-right: 3px;
+}
+
+.card:first-child {
+    background: url();
+    background-size: auto;
+    background-size: 100%;
+    filter: grayscale(1);
+}
+
+.card:nth-child(2) {
+    background: url(../img/Screenshot_٢٠٢١٠٥٠٦-١٠٤٢٠٩_Chrome.jpg);
+    background-size: auto;
+    background-size: 100%;
+    filter: grayscale(1);
+}
+
+.card:nth-child(3) {
+    background: url(../img/2.jpg);
+    background-size: auto;
+    background-size: 100%;
+    filter: grayscale(1);
+}
+
+.card:hover {
+    filter: grayscale(0);
+}
+
+.container .card .content {
+    padding: 20px;
+    text-align: center;
+    transform: 0.5s;
+}
+
+.container .card .content h2 {
+    position: absolute;
+    top: -80px;
+    right: 30px;
+    font-size: 8em;
+    color: rgba(255, 255, 255, 0.5);
+    pointer-events: none;
+}
+
+.container .card .content .ho {
+    font-size: 1.8em;
+    color: #fff;
+    z-index: 1;
+}
+
+.container .card .content .ho1 {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+
+.container .card .content .ho2 {
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: #171717;
+    color: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.topnav {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    margin-left: -475px;
+    width: 950px;
+    height: 50px;
+    background-color: #171717eb;
+    border-radius: 4px;
+    direction: rtl;
+}
+
+table {
+    max-width: 100%;
+    background-color: transparent;
+}
+
+.ac {
+    position: fixed;
+    top: -4px;
+}
+
+.topnav::before {}
+
+.links {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.sc {
+    margin-right: 5px;
+    margin-left: 10px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.sc1 {
+    font-size: 23px;
+    text-align: center;
+    color: white;
+    text-decoration: navajowhite;
+    margin-right: 10px;
+    font-family: Fredoka One;
+}
+
+.links a {
+    text-decoration: navajowhite;
+    color: white;
+}
+
+.glyphicon.glyphicon-earphone {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+}
+
+@media(max-width:758px) {
+    .bgimg-1 {
+        background-image: url("../img/img_parallax.jpg");
+        min-height: 60%;
+        transition: .7s all ease-in-out;
+        clip-path: circle(140vh at 50% -80vh);
+        background-attachment: fixed;
+    }
+    .row {
+        padding: 30px 30px;
+    }
+}
